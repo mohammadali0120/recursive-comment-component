@@ -69,7 +69,7 @@ const toggleChildren = (): void => {
             </div>
           </div>
 
-          <div class="w-fit mr-auto lg:block hidden">
+          <div class="w-fit ml-auto lg:block hidden">
             <div class="flex items-start justify-end">
               <div class="flex items-center cursor-pointer">
                 <div class="lg:w-4 lg:h-4 w-3 h-3">
@@ -81,7 +81,7 @@ const toggleChildren = (): void => {
                   <span> Like </span>
                 </div>
               </div>
-              <div class="flex items-center cursor-pointer lg:mr-4 mr-2">
+              <div class="flex items-center cursor-pointer lg:ml-4 ml-2">
                 <div class="lg:w-4 lg:h-4 w-3 h-3">
                   <GlobalFontIcon
                     :icon="{
@@ -96,7 +96,7 @@ const toggleChildren = (): void => {
               </div>
 
               <div
-                class="flex items-center lg:mr-4 mr-2 cursor-pointer"
+                class="flex items-center lg:ml-4 ml-2 cursor-pointer"
                 v-if="
                   props.comment.comments && props.comment.comments.length >= 1
                 "
@@ -118,7 +118,7 @@ const toggleChildren = (): void => {
                 </div>
               </div>
 
-              <div class="lg:mr-4 mr-2">
+              <div class="lg:ml-4 ml-2">
                 <p class="">
                   {{ props.comment.date }}
                 </p>
@@ -131,7 +131,7 @@ const toggleChildren = (): void => {
             {{ props.comment.text }}
           </p>
         </div>
-        <div class="w-fit mr-auto lg:hidden contents whitespace-nowrap">
+        <div class="w-fit ml-auto lg:hidden contents whitespace-nowrap">
           <div class="flex items-start justify-between">
             <div class="flex items-center">
               <div class="flex items-center cursor-pointer">
@@ -144,7 +144,7 @@ const toggleChildren = (): void => {
                   <span> Like </span>
                 </div>
               </div>
-              <div class="flex items-center cursor-pointer lg:mr-4 mr-2">
+              <div class="flex items-center cursor-pointer lg:ml-4 ml-2">
                 <div class="lg:w-4 lg:h-4 w-3 h-3">
                   <GlobalFontIcon
                     :icon="{
@@ -158,9 +158,9 @@ const toggleChildren = (): void => {
                 </div>
               </div>
             </div>
-            <div class="lg:mr-4 mr-2 flex items-center">
+            <div class="lg:ml-4 ml-2 flex items-center">
               <div
-                class="flex items-center lg:ml-4 ml-2 cursor-pointer"
+                class="flex items-center lg:mr-4 mr-2 cursor-pointer"
                 v-if="
                   props.comment.comments && props.comment.comments.length >= 1
                 "
