@@ -53,7 +53,7 @@ const comments = ref([
                     date: "2022-05-11",
                   },
                   {
-                    id: 1,
+                    id: 2,
                     fullName: "Omid",
                     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. A dicta nemo aperiam accusamus quisquam necessitatibus, neque quaerat optio, culpa eos magni libero obcaecati tempora dolor ex earum repudiandae animi et!",
                     likes: 0,
@@ -87,7 +87,7 @@ const comments = ref([
     ],
   },
   {
-    id: 1,
+    id: 2,
     fullName: "Tom",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. A dicta nemo aperiam accusamus quisquam necessitatibus, neque quaerat optio, culpa eos magni libero obcaecati tempora dolor ex earum repudiandae animi et!",
     likes: 0,
